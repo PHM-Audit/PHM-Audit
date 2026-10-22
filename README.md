@@ -21,6 +21,10 @@ Caliber: three layers count executions, one counts frames — mixed by design,
 stated per line. Zero-valued results mean "not observed in this test set",
 not absolute guarantees.
 
+## Shipped
+
+- **Dify Official Marketplace** — PHM Physics Check merged into the official plugin registry ([langgenius/dify-plugins#3445](https://github.com/langgenius/dify-plugins/pull/3445), 2026-10-22): deterministic physics checking for agent platforms. Zero network calls, verdicts recomputable by anyone.
+
 ## Method in one line
 
 Deterministic, operator-declared, pre-execution adjudication with an audit

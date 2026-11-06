@@ -10,6 +10,16 @@ Four layers, closing state 2026-10-09 — full ledger with verbatim metrics,
 audit logs, closing marks and SHA-256 manifest:
 **[phm-evidence-ledger](https://github.com/PHM-Audit/phm-evidence-ledger)**
 
+## Benchmark: DPC-Bench v0.2
+
+**[dpc-bench](https://github.com/PHM-Audit/dpc-bench)** — paired clean/corrupted
+benchmark for physical-consistency defect detection (7 task families, ~10.2K records,
+three-caliber labels L1/L2/L3). Six synthetic families each modeled on a real, publicly
+documented defect (AgiBot-World #164, PaXini data-kit #3, GalaxeaLeRobotToolkit #5, NGSIM
+unit semantics, DJI log frame losses, UZH-FPV kinematic violations); one real-data family
+derived from NGSIM I-80 (USDOT public domain). Zero-false-positive-on-clean is reported
+separately. Open board — submissions welcome.
+
 | Layer | Count | Unit | Headline result |
 |---|---|---|---|
 | Physics-engine gate (Master 2B) | 1,900,000,000 +100M baseline | program executions | FP=0 / FN=0 observed, 10 classes, `REACHED_2B` mark |
